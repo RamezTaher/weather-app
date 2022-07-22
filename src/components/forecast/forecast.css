@@ -1,0 +1,50 @@
+.title {
+  font-size: 30px;
+}
+
+.item {
+  padding: 10px 20px;
+  background-color: #4debbe;
+  height: 45px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.weather-icon {
+  width: 35px;
+}
+
+.day .item {
+  color: gray;
+  flex: 1 1;
+}
+
+.desc {
+  color: gray;
+  flex: 1 1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.min-max-temp {
+  color: lightgray;
+}
+
+.grid {
+  display: grid;
+  grid-row-gap: 0;
+  grid-column-gap: 20px;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 10px 15px;
+}
+
+.grid-item {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  height: 50px;
+}

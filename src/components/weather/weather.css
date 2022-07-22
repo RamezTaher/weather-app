@@ -1,0 +1,57 @@
+.weather-card {
+  width: 400px;
+  color: #fff;
+  background-color: lightseagreen;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-name {
+  font: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.weather-desc {
+  font: 300;
+  font-size: 14px;
+}
+
+.weather-img {
+  width: 150px;
+}
+
+.temp {
+  font: bold;
+  font-size: 75px;
+  width: auto;
+  margin: 10px 0;
+}
+
+.infos {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.param-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.param-row:nth-child(1) {
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+}
+.param-row:nth-child(2) {
+  text-align: right;
+  font-weight: 500;
+  font-size: 12px;
+}
